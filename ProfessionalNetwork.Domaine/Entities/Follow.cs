@@ -11,13 +11,16 @@ namespace ProfessionalNetwork.Domaine.Entities
 {
     public  class Follow
     {
-
+        [DataType(DataType.DateTime)]
         public DateTime  Date_Follow { get; set; }
+
         [Key, Column(Order = 0)]
-        public int Entreprise_admin { get; set; }
-        public Entreprise_admin Entreprise_admins { get; set; }
+        public int Id_Entrepirse { get; set; }
+        
         [Key, Column(Order = 1)]
-        public int Jobseeker { get; set; }
+        public int id_jobseeker { get; set; }
+
         public Jobseeker Jobseekers { get; set; }
+        public Entreprise_admin Entreprise_admins { get; set; }
     }
 }
