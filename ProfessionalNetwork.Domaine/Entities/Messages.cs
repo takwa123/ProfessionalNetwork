@@ -10,5 +10,6 @@ namespace ProfessionalNetwork.Domaine.Entities
     {
         public DateTime Date_message { get; set; }
         public string Content { get; set; }
+
     }
 }

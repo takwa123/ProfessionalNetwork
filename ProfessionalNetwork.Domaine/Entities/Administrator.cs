@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace ProfessionalNetwork.Domaine.Entities
 {
-    public class Administrator : Account
+    public class Administrator
     {
+        public int Id_Admin { get; set; }
     }
 }

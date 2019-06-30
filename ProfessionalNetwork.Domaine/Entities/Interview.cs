@@ -10,5 +10,11 @@ namespace ProfessionalNetwork.Domaine.Entities
     {
         public int Id_Interview { get; set; }
         public DateTime Date_Interview { get; set; }
+        public Enum_Type_Interview Type_Interview { get; set; }
+        public State_Application State_interview { get; set; }
+
+
+        public int Id_Test { get; set; }
+        public Test Test { get; set; }
     }
 }

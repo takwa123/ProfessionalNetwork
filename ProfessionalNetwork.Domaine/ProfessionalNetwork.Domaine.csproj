@@ -54,16 +54,21 @@
     <Compile Include="Entities\Administrator.cs" />
     <Compile Include="Entities\Application.cs" />
     <Compile Include="Entities\Comments.cs" />
+    <Compile Include="Entities\Contacts.cs" />
+    <Compile Include="Entities\EntityTrace.cs" />
     <Compile Include="Entities\Entreprise_admin.cs" />
+    <Compile Include="Entities\Enums.cs" />
     <Compile Include="Entities\Follow.cs" />
     <Compile Include="Entities\Interview.cs" />
     <Compile Include="Entities\Jobseeker.cs" />
-    <Compile Include="Entities\Job_Offers.cs" />
+    <Compile Include="Entities\Job_Offer.cs" />
     <Compile Include="Entities\Likes.cs" />
     <Compile Include="Entities\Messages.cs" />
     <Compile Include="Entities\Notifications.cs" />
     <Compile Include="Entities\Posts.cs" />
     <Compile Include="Entities\Project_Manager.cs" />
+    <Compile Include="Entities\Question.cs" />
+    <Compile Include="Entities\Test.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

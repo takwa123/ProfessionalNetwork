@@ -11,5 +11,6 @@ namespace ProfessionalNetwork.Domaine.Entities
         public int Id_Post { get; set; }
         public string Post { get; set; }
         public DateTime Date_Post { get; set; }
+        
     }
 }
