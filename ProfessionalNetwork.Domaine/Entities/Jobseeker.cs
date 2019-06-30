@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ProfessionalNetwork.Domaine.Entities
 {
-    public class Jobseeker
+    public class Jobseeker:Account
     {
         public int id_jobseeker { get; set; }
         public string First_Name { get; set; }

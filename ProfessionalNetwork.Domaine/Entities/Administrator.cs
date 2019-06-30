@@ -8,6 +8,8 @@ namespace ProfessionalNetwork.Domaine.Entities
 {
     public class Administrator: Account
     {
-       
+
+        public int Id_Administrator { get; set; }
+
     }
 }

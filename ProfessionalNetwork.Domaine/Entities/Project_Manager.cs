@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ProfessionalNetwork.Domaine.Entities
 {
-    public class Project_Manager
+    public class Project_Manager : Account
     {
         public int Id_Project_Manager { get; set; }
         public ICollection<Job_Offer> Job_Offers { get; set; }

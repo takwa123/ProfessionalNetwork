@@ -9,6 +9,7 @@ namespace ProfessionalNetwork.Domaine.Entities
 {
     public  class Entreprise_admin :Account
     {
+        public int Id_Entrepirse { get; set; }
         public string Name_Entrerise { get; set; }
         public string Intro_Entreprise { get; set; }
         public int NB_Employee { get; set; }
