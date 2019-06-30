@@ -1,0 +1,10 @@
+C:\Users\chtak\Documents\Visual Studio 2015\Projects\ProfessionalNetwork\ProfessionalNetwork.Domaine\bin\Debug\ProfessionalNetwork.Domaine.dll.config
+C:\Users\chtak\Documents\Visual Studio 2015\Projects\ProfessionalNetwork\ProfessionalNetwork.Domaine\bin\Debug\ProfessionalNetwork.Domaine.dll
+C:\Users\chtak\Documents\Visual Studio 2015\Projects\ProfessionalNetwork\ProfessionalNetwork.Domaine\bin\Debug\ProfessionalNetwork.Domaine.pdb
+C:\Users\chtak\Documents\Visual Studio 2015\Projects\ProfessionalNetwork\ProfessionalNetwork.Domaine\bin\Debug\EntityFramework.dll
+C:\Users\chtak\Documents\Visual Studio 2015\Projects\ProfessionalNetwork\ProfessionalNetwork.Domaine\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\chtak\Documents\Visual Studio 2015\Projects\ProfessionalNetwork\ProfessionalNetwork.Domaine\bin\Debug\EntityFramework.xml
+C:\Users\chtak\Documents\Visual Studio 2015\Projects\ProfessionalNetwork\ProfessionalNetwork.Domaine\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\chtak\Documents\Visual Studio 2015\Projects\ProfessionalNetwork\ProfessionalNetwork.Domaine\obj\Debug\ProfessionalNetwork.Domaine.csprojResolveAssemblyReference.cache
+C:\Users\chtak\Documents\Visual Studio 2015\Projects\ProfessionalNetwork\ProfessionalNetwork.Domaine\obj\Debug\ProfessionalNetwork.Domaine.dll
+C:\Users\chtak\Documents\Visual Studio 2015\Projects\ProfessionalNetwork\ProfessionalNetwork.Domaine\obj\Debug\ProfessionalNetwork.Domaine.pdb

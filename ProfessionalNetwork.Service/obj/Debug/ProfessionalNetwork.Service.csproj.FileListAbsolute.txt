@@ -1,0 +1,16 @@
+C:\Users\chtak\Documents\Visual Studio 2015\Projects\ProfessionalNetwork\ProfessionalNetwork.Service\bin\Debug\ProfessionalNetwork.Service.dll.config
+C:\Users\chtak\Documents\Visual Studio 2015\Projects\ProfessionalNetwork\ProfessionalNetwork.Service\bin\Debug\ProfessionalNetwork.Service.dll
+C:\Users\chtak\Documents\Visual Studio 2015\Projects\ProfessionalNetwork\ProfessionalNetwork.Service\bin\Debug\ProfessionalNetwork.Service.pdb
+C:\Users\chtak\Documents\Visual Studio 2015\Projects\ProfessionalNetwork\ProfessionalNetwork.Service\bin\Debug\EntityFramework.dll
+C:\Users\chtak\Documents\Visual Studio 2015\Projects\ProfessionalNetwork\ProfessionalNetwork.Service\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\chtak\Documents\Visual Studio 2015\Projects\ProfessionalNetwork\ProfessionalNetwork.Service\bin\Debug\ProfessionalNetwork.Data.dll
+C:\Users\chtak\Documents\Visual Studio 2015\Projects\ProfessionalNetwork\ProfessionalNetwork.Service\bin\Debug\ProfessionalNetwork.Domaine.dll
+C:\Users\chtak\Documents\Visual Studio 2015\Projects\ProfessionalNetwork\ProfessionalNetwork.Service\bin\Debug\ProfessionalNetwork.ServicePattern.dll
+C:\Users\chtak\Documents\Visual Studio 2015\Projects\ProfessionalNetwork\ProfessionalNetwork.Service\bin\Debug\ProfessionalNetwork.Data.pdb
+C:\Users\chtak\Documents\Visual Studio 2015\Projects\ProfessionalNetwork\ProfessionalNetwork.Service\bin\Debug\ProfessionalNetwork.Domaine.pdb
+C:\Users\chtak\Documents\Visual Studio 2015\Projects\ProfessionalNetwork\ProfessionalNetwork.Service\bin\Debug\ProfessionalNetwork.ServicePattern.pdb
+C:\Users\chtak\Documents\Visual Studio 2015\Projects\ProfessionalNetwork\ProfessionalNetwork.Service\bin\Debug\EntityFramework.xml
+C:\Users\chtak\Documents\Visual Studio 2015\Projects\ProfessionalNetwork\ProfessionalNetwork.Service\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\chtak\Documents\Visual Studio 2015\Projects\ProfessionalNetwork\ProfessionalNetwork.Service\obj\Debug\ProfessionalNetwork.Service.csprojResolveAssemblyReference.cache
+C:\Users\chtak\Documents\Visual Studio 2015\Projects\ProfessionalNetwork\ProfessionalNetwork.Service\obj\Debug\ProfessionalNetwork.Service.dll
+C:\Users\chtak\Documents\Visual Studio 2015\Projects\ProfessionalNetwork\ProfessionalNetwork.Service\obj\Debug\ProfessionalNetwork.Service.pdb
