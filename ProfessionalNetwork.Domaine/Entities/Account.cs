@@ -14,6 +14,7 @@ namespace ProfessionalNetwork.Domaine.Entities
         public string Username { get; set; }
         public string Pwd { get; set; }
         public Boolean Enable { get; set; }
+        public DateTime Date_of_birth { get; set;  }
         public string Photo { get; set; }
     }
 }

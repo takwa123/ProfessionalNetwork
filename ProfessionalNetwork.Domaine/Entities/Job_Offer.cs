@@ -14,10 +14,14 @@ namespace ProfessionalNetwork.Domaine.Entities
         public DateTime Date_Offer { get; set; }
         public int Nbr_Candidat { get; set; }
         public DateTime Date_Expiration { get; set; }
-
-
+        public bool visibility { get; set; }
         public int Id_Entrepirse { get; set; }
+
+
         public Entreprise_admin Entreprise_admin { get; set; }
         public ICollection<Application> Applications { get; set; }
-    }
+         
+        public int Id_Project_Manager { get; set; }
+        public Project_Manager Project_Manager { get; set;  }
+}
 }

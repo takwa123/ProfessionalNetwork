@@ -9,5 +9,6 @@ namespace ProfessionalNetwork.Domaine.Entities
     public class Project_Manager
     {
         public int Id_Project_Manager { get; set; }
+        public ICollection<Job_Offer> Job_Offers { get; set; }
     }
 }
