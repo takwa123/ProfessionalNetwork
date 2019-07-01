@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace ProfessionalNetwork.Domaine.Entities
 {
-    public  class Entreprise_admin :Account
+    public  class Entreprise_admin : Account
     {
         [Key]
         public long Id_Entrepirse { get; set; }
@@ -20,10 +20,10 @@ namespace ProfessionalNetwork.Domaine.Entities
         public string Role { get; set; }
 
 
-        public ICollection<Project_Manager> Project_Managers { get; set; }
+       // public ICollection<Project_Manager> Project_Managers { get; set; }
 
 
-        public ICollection<Jobseeker> Jobseekers { get; set; }
+       // public ICollection<Jobseeker> Jobseekers { get; set; }
 
 
         public ICollection<Job_Offer> Job_Offers { get; set; }

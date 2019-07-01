@@ -22,6 +22,7 @@ namespace ProfessionalNetwork.Domaine.Entities
         
         [DataType(DataType.DateTime)]
         public DateTime Date_Application { get; set; }
+
         public State_Application State { get; set; }
 
         public long Job_OfferFK { get; set; }

@@ -25,7 +25,7 @@ namespace ProfessionalNetwork.Domaine.Entities
 
         public ICollection<Application> Applications { get; set; }
          
-        public int Id_Project_Manager { get; set; }
-        public Project_Manager Project_Manager { get; set;  }
-}
+        //public long Project_ManagerFK { get; set; }
+        //public Project_Manager Project_Manager { get; set;  }
+    }
 }

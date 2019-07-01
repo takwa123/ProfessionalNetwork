@@ -9,8 +9,9 @@ namespace ProfessionalNetwork.Domaine.Entities
 
 {
     public class Account : EntityTrace
-    {   [Key]
-        public long Id_Account { get; set; }
+    {
+        //[Key]
+       // public long Id_Account { get; set; }
         [EmailAddress]
         public string Email { get; set; }
         public string Username { get; set; }

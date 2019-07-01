@@ -18,8 +18,8 @@ namespace ProfessionalNetwork.Data.Configurations
        
                public  EntrepriseConfiguration()
                {
-            HasKey<long>(a => a.Id_Entrepirse);
-            this.ToTable("Entreprise_admin");
+                    HasKey<long>(a => a.Id_Entrepirse);
+                    this.ToTable("Entreprise_admin");
                }
 
 

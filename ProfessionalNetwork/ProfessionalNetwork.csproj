@@ -25,6 +25,7 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -206,14 +207,32 @@
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\ApplicationController.cs" />
+    <Compile Include="Controllers\Entrepirse_AdminController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\JobSeekerController.cs" />
+    <Compile Include="Controllers\Job_OfferController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\project_ManagerController.cs" />
+    <Compile Include="Controllers\QuestionController.cs" />
+    <Compile Include="Controllers\TestController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\AccountVM.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\ApplicationVM.cs" />
+    <Compile Include="Models\EntityTrace.cs" />
+    <Compile Include="Models\Entreprise_adminVM.cs" />
+    <Compile Include="Models\Enums.cs" />
     <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="Models\InterviewVM.cs" />
+    <Compile Include="Models\JobseekerVM.cs" />
+    <Compile Include="Models\Job_OfferVM.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="Models\Project_ManagerVM.cs" />
+    <Compile Include="Models\QuestionVM.cs" />
+    <Compile Include="Models\TestVM.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
@@ -277,9 +296,16 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\Application\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\Entrepirse_Admin\" />
+    <Folder Include="Views\JobSeeker\" />
+    <Folder Include="Views\Job_Offer\" />
+    <Folder Include="Views\project_Manager\" />
+    <Folder Include="Views\Question\" />
+    <Folder Include="Views\Test\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -291,7 +317,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ProfessionalNetwork.Domaine\ProfessionalNetwork.Domaine.csproj">
-      <Project>{66513104-1ee6-45db-9823-0f0fbaad042f}</Project>
+      <Project>{66513104-1EE6-45DB-9823-0F0FBAAD042F}</Project>
       <Name>ProfessionalNetwork.Domaine</Name>
     </ProjectReference>
     <ProjectReference Include="..\ProfessionalNetwork.ServicePattern\ProfessionalNetwork.ServicePattern.csproj">

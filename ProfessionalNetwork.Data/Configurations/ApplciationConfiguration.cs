@@ -19,14 +19,14 @@ namespace ProfessionalNetwork.Data.Configurations
                public  ApplicationConfiguration()
                {
 
-            this.ToTable("Application");
-            HasKey<long>(a => a.Id_Application);
-            //one to many relation
-            HasRequired<Jobseeker>(t => t.Jobseeker).WithMany(t => t.Applications).HasForeignKey(t => t.Job_SeekerFK).WillCascadeOnDelete(true);
+                this.ToTable("Application");
+                HasKey<long>(a => a.Id_Application);
+                //one to many relation
+                HasRequired<Jobseeker>(t => t.Jobseeker).WithMany(t => t.Applications).HasForeignKey(t => t.Job_SeekerFK).WillCascadeOnDelete(true);
 
-            HasRequired<Job_Offer>(t => t.Job_Offer).WithMany(t => t.Applications).HasForeignKey(t => t.Job_SeekerFK).WillCascadeOnDelete(true);
+                HasRequired<Job_Offer>(t => t.Job_Offer).WithMany(t => t.Applications).HasForeignKey(t => t.Job_OfferFK).WillCascadeOnDelete(true);
 
-        }
+            }
 
 
 
