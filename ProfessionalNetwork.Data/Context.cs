@@ -12,9 +12,16 @@ namespace ProfessionalNetwork.Data
 {
     public class Context: DbContext
     {
+
+
+
+       public Context():base()
+        {
+
+            }
         public DbSet<Account> Account { get; set; }
         public DbSet<Entreprise_admin> Entreprise_admin { get; set; }
-        public DbSet<Job_Offers> Job_Offers { get; set; }
+        public DbSet<Job_Offer> Job_Offers { get; set; }
         public DbSet<Project_Manager> Project_Manager { get; set; }
         
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
