@@ -9,7 +9,7 @@ namespace ProfessionalNetwork.Domaine.Entities
 {
     public class Posts
     {
-        public int Id_Post { get; set; }
+        public long Id_Post { get; set; }
         public string Post { get; set; }
         [DataType(DataType.DateTime)]
         public DateTime Date_Post { get; set; }

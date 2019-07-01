@@ -49,8 +49,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Configurations\InterviewConfiguration.cs" />
     <Compile Include="Configurations\EntrepriseConfiguration.cs" />
+    <Compile Include="Configurations\JobOfferConfiguration.cs" />
     <Compile Include="Configurations\Project_ManagerConfiguration.cs" />
+    <Compile Include="Configurations\QuestionConfiguration.cs" />
+    <Compile Include="Configurations\TestConfiguration.cs" />
     <Compile Include="Context.cs" />
     <Compile Include="Conventions\DateTimeConvention.cs" />
     <Compile Include="Infrastructure\DatabaseFactory.cs" />

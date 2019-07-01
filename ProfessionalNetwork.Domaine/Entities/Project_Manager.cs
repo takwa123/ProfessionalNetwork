@@ -10,7 +10,7 @@ namespace ProfessionalNetwork.Domaine.Entities
     public class Project_Manager : Account
     {
         [Key]
-        public int Id_Project_Manager { get; set; }
+        public long Id_Project_Manager { get; set; }
         public ICollection<Job_Offer> Job_Offers { get; set; }
     }
 }

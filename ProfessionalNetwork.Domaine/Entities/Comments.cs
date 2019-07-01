@@ -12,10 +12,10 @@ namespace ProfessionalNetwork.Domaine.Entities
 
     {
         [Key, Column(Order = 0)]
-        public int id_jobseeker { get; set; }
+        public long id_jobseeker { get; set; }
         
         [Key, Column(Order = 1)]
-        public int Id_Post { get; set; }
+        public long Id_Post { get; set; }
         
         public string Comment { get; set; }
         [DataType(DataType.DateTime)]

@@ -10,7 +10,7 @@ namespace ProfessionalNetwork.Domaine.Entities
     public class Contacts
     {   
         [Key]
-        public int Id_Contact { get; set; }
+        public long Id_Contact { get; set; }
         public string First_Name_Contact { get; set; }
         public string Last_Name_Contact { get; set; }
         [DataType(DataType.ImageUrl), Required(ErrorMessage = "la proprieté image est obligatoire")]

@@ -10,7 +10,7 @@ namespace ProfessionalNetwork.Domaine.Entities
     public class Interview
     {
         [Key]
-        public int Id_Interview { get; set; }
+        public long Id_Interview { get; set; }
         [DataType(DataType.DateTime)]
         public DateTime Date_Interview { get; set; }
         public Enum_Type_Interview Type_Interview { get; set; }

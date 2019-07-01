@@ -19,7 +19,7 @@ namespace ProfessionalNetwork.Data.Configurations
                public  EntrepriseConfiguration()
                {
                      
-                    }
+               }
 
 
     }

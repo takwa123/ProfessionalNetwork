@@ -10,7 +10,7 @@ namespace ProfessionalNetwork.Domaine.Entities
     public  class Job_Offer
     {
         [Key]
-        public int Id_JobOffer { get; set; }
+        public long Id_JobOffer { get; set; }
         public string job_title { get; set; }
         public string Job_Description { get; set; }
         [DataType(DataType.DateTime)]
@@ -19,7 +19,7 @@ namespace ProfessionalNetwork.Domaine.Entities
         public DateTime Date_Expiration { get; set; }
         public bool visibility { get; set; }
         
-        public int Id_Entrepirse { get; set; }
+        public long Id_Entrepirse { get; set; }
         public Entreprise_admin Entreprise_Admins { get; set; }
 
 

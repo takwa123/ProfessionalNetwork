@@ -13,10 +13,10 @@ namespace ProfessionalNetwork.Domaine.Entities
         
         
         [Key, Column(Order = 0)]
-        public int Id_JobOffer { get; set; }
+        public long Id_JobOffer { get; set; }
         
         [Key, Column(Order = 1)]
-        public int id_jobseeker { get; set; }
+        public long id_jobseeker { get; set; }
         
         [DataType(DataType.DateTime)]
         public DateTime Date_Application { get; set; }

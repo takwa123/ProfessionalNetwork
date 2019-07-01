@@ -10,7 +10,7 @@ namespace ProfessionalNetwork.Domaine.Entities
     public class Jobseeker:Account
     {
         [Key]
-        public int id_jobseeker { get; set; }
+        public long id_jobseeker { get; set; }
         public string First_Name { get; set; }
         public string Last_Name { get; set; }
         public string Intro_jobseeker { get; set; }

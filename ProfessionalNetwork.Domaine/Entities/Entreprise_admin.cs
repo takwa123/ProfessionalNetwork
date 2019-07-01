@@ -11,7 +11,7 @@ namespace ProfessionalNetwork.Domaine.Entities
     public  class Entreprise_admin :Account
     {
         [Key]
-        public int Id_Entrepirse { get; set; }
+        public long Id_Entrepirse { get; set; }
         public string Name_Entrerise { get; set; }
         [DataType(DataType.Text)]
         public string Intro_Entreprise { get; set; }

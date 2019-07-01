@@ -15,10 +15,10 @@ namespace ProfessionalNetwork.Domaine.Entities
         public DateTime  Date_Follow { get; set; }
 
         [Key, Column(Order = 0)]
-        public int Id_Entrepirse { get; set; }
+        public long Id_Entrepirse { get; set; }
         
         [Key, Column(Order = 1)]
-        public int id_jobseeker { get; set; }
+        public long id_jobseeker { get; set; }
 
         public Jobseeker Jobseekers { get; set; }
         public Entreprise_admin Entreprise_admins { get; set; }
