@@ -209,6 +209,8 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\ApplicationController.cs" />
     <Compile Include="Controllers\Entrepirse_AdminController.cs" />
+
+    <Compile Include="Controllers\Entreprise_AdminController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\JobSeekerController.cs" />
     <Compile Include="Controllers\Job_OfferController.cs" />
@@ -221,10 +223,13 @@
     </Compile>
     <Compile Include="Models\AccountVM.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
+
     <Compile Include="Models\ApplicationVM.cs" />
     <Compile Include="Models\EntityTrace.cs" />
     <Compile Include="Models\Entreprise_adminVM.cs" />
     <Compile Include="Models\Enums.cs" />
+
+    <Compile Include="Models\Entreprise_AdminViewModel.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\InterviewVM.cs" />
     <Compile Include="Models\JobseekerVM.cs" />
@@ -300,12 +305,16 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+
     <Folder Include="Views\Entrepirse_Admin\" />
     <Folder Include="Views\JobSeeker\" />
     <Folder Include="Views\Job_Offer\" />
     <Folder Include="Views\project_Manager\" />
     <Folder Include="Views\Question\" />
     <Folder Include="Views\Test\" />
+
+    <Folder Include="Views\Entreprise_Admin\" />
+
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />

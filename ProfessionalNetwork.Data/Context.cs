@@ -14,7 +14,6 @@ namespace ProfessionalNetwork.Data
     {
 
 
-
        public Context():base("PNdatabase")
         {
 
@@ -33,7 +32,11 @@ namespace ProfessionalNetwork.Data
 
             modelBuilder.Conventions.Add(new DateTimeConvention());
             modelBuilder.Configurations.Add(new EntrepriseConfiguration());
+
            // modelBuilder.Configurations.Add(new Project_ManagerConfiguration());
+
+            modelBuilder.Configurations.Add(new Project_ManagerConfiguration());
+            modelBuilder.Configurations.Add(new FollowConfiguration());
             modelBuilder.Configurations.Add(new ApplicationConfiguration());
             modelBuilder.Configurations.Add(new InterviewConfiguration());
             modelBuilder.Configurations.Add(new JobOfferConfiguration());
@@ -41,7 +44,6 @@ namespace ProfessionalNetwork.Data
             modelBuilder.Configurations.Add(new TestConfiguration());
             modelBuilder.Configurations.Add(new JobSeekerConfiguration());
 
-            
         }
 
     }

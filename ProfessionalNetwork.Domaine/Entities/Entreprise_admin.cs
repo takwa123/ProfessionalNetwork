@@ -27,5 +27,6 @@ namespace ProfessionalNetwork.Domaine.Entities
 
 
         public ICollection<Job_Offer> Job_Offers { get; set; }
+
     }
 }

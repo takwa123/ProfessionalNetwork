@@ -56,6 +56,8 @@
     <Compile Include="Configurations\QuestionConfiguration .cs" />
     <Compile Include="Configurations\InterviewConfiguration.cs" />
     <Compile Include="Configurations\EntrepriseConfiguration.cs" />
+    <Compile Include="Configurations\FollowConfiguration.cs" />
+    <Compile Include="Configurations\Job_OfferConfiguration.cs" />
     <Compile Include="Configurations\Project_ManagerConfiguration.cs" />
     <Compile Include="Context.cs" />
     <Compile Include="Conventions\DateTimeConvention.cs" />
@@ -68,8 +70,7 @@
     <Compile Include="Infrastructure\UnitOfWork.cs" />
     <Compile Include="Migrations\201907012006485_firstmig.cs" />
     <Compile Include="Migrations\201907012006485_firstmig.Designer.cs">
-      <DependentUpon>201907012006485_firstmig.cs</DependentUpon>
-    </Compile>
+      <DependentUpon>201907012006485_firstmig.cs</DependentUpon></Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -86,12 +87,12 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201907012006485_firstmig.resx">
+<EmbeddedResource Include="Migrations\201907012006485_firstmig.resx">
       <DependentUpon>201907012006485_firstmig.cs</DependentUpon>
-    </EmbeddedResource>
+  </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
-  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">
   </Target>

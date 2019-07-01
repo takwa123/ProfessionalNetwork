@@ -25,6 +25,14 @@ namespace ProfessionalNetwork.Data.Configurations
             //HasRequired<Entreprise_admin>(t => t.Entreprise_admin).WithMany(t => t.Project_Managers)
             //    .HasForeignKey(t => t.EntrepirseFK).WillCascadeOnDelete(true);
 
+            //HasRequired<Entreprise_admin>(s => s.Entreprise_admin)
+            //      .WithMany(t => t.Project_Managers)
+            //      .HasForeignKey(u => u.Id_Entreprise_admin)
+            //      .WillCascadeOnDelete(true);
+
+            this.ToTable("Project_Manager");
+
+
         }
     }
 }
