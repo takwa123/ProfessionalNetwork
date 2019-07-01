@@ -18,8 +18,13 @@ namespace ProfessionalNetwork.Data.Configurations
        
                public  QuestionConfiguration()
                {
-                     
-               }
+
+                    this.ToTable("Question");
+            HasKey<long>(a => a.Id_Question);
+            //one to many relation
+            HasRequired<Test>(t => t.Test).WithMany(t => t.Questions).HasForeignKey(t => t.TestFK).WillCascadeOnDelete(true);
+
+                }
 
 
     }

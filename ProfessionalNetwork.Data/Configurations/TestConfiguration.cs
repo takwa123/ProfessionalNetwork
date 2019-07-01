@@ -10,17 +10,12 @@ namespace ProfessionalNetwork.Data.Configurations
 {
     public class TestConfiguration: EntityTypeConfiguration<Test>
     {
-        //HasRequired<Bibliotheque>(s => s.Bibliotheque)
-        //        .WithMany(t => t.Documents).
-        //        .HasForeignKey(u => u.BibliothequeFK)
-        //        .WillCascadeOnDelete(true);
+        public  TestConfiguration()
+        {
+            this.ToTable("Test");
+            HasKey<long>(a => a.Id_Test);
 
-       
-               public  TestConfiguration()
-               {
-                     
-               }
-
-
+            
+        }
     }
 }

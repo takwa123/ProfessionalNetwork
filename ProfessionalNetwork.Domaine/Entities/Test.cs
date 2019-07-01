@@ -18,5 +18,7 @@ namespace ProfessionalNetwork.Domaine.Entities
 
         public ICollection<Question> Questions { get; set; }
 
+
+        public Interview Interview { get; set; }
     }
 }

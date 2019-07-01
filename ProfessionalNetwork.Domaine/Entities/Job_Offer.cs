@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ProfessionalNetwork.Domaine.Entities
 {
-    public  class Job_Offer
+    public  class Job_Offer : EntityTrace
     {
         [Key]
         public long Id_JobOffer { get; set; }
@@ -19,11 +19,10 @@ namespace ProfessionalNetwork.Domaine.Entities
         public DateTime Date_Expiration { get; set; }
         public bool visibility { get; set; }
         
-        public long Id_Entrepirse { get; set; }
-        public Entreprise_admin Entreprise_Admins { get; set; }
+        public long EntrepirseFK { get; set; }
+        public Entreprise_admin Entreprise_Admin { get; set; }
 
 
-        public Entreprise_admin Entreprise_admin { get; set; }
         public ICollection<Application> Applications { get; set; }
          
         public int Id_Project_Manager { get; set; }

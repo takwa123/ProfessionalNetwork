@@ -17,7 +17,12 @@ namespace ProfessionalNetwork.Domaine.Entities
         public State_Application State_interview { get; set; }
 
 
-        public int Id_Test { get; set; }
+        public long TestFK { get; set; }
         public Test Test { get; set; }
+
+        public long Applciation_FK { get; set; }
+        public Application Application { get; set; }
+
+
     }
 }
