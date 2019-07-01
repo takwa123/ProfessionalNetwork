@@ -7,19 +7,20 @@ using System.Threading.Tasks;
 
 namespace ProfessionalNetwork.Domaine.Entities
 {
-    public class Question
+    public class Question : EntityTrace
     {
 
-        public int Id_Question { get; set; }
+        public long Id_Question { get; set; }
         public string Content_Question { get; set; }
         public int Correct_AnswerID{ get; set; }
         public int Point_Question { get; set; }
         public int Rank { get; set; }
 
+        public string choice1 { get; set; }
+        public string choice2 { get; set; }
+        public string choice3 { get; set; }
 
-
-        [ForeignKey("Id_Test")]
-        public int Id_Test { get; set; }
+        public long TestFK { get; set; }
         public Test Test { get; set; }
     }
 }

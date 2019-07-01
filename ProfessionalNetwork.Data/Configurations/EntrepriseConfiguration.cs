@@ -21,7 +21,8 @@ namespace ProfessionalNetwork.Data.Configurations
                 //HasRequired<Project_Manager>(s => s.)
                 //.WithMany(t => t.)
                 //.HasForeignKey(u => u.Id_Entrepirse);
-
+            HasKey<long>(a => a.Id_Entrepirse);
+            this.ToTable("Entreprise_admin");
                }
 
 

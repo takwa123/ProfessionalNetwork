@@ -8,9 +8,9 @@ using System.Threading.Tasks;
 namespace ProfessionalNetwork.Domaine.Entities
 
 {
-    public class Account
+    public class Account : EntityTrace
     {   [Key]
-        public int Id_Account { get; set; }
+        public long Id_Account { get; set; }
         [EmailAddress]
         public string Email { get; set; }
         public string Username { get; set; }

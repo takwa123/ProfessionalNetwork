@@ -17,7 +17,7 @@ namespace ProfessionalNetwork.Data.Configurations
             //      .HasForeignKey(u => u.Id_Entreprise_admin)
             //      .WillCascadeOnDelete(true);
 
-           
+            this.ToTable("Project_Manager");
 
         }
     }

@@ -11,7 +11,7 @@ namespace ProfessionalNetwork.Domaine.Entities
     public class Likes
     {
         [Key, Column(Order = 0)]
-        public int id_jobseeker { get; set; }
+        public long id_jobseeker { get; set; }
         public Jobseeker Jobseekers { get; set; }
         [Key, Column(Order = 1)]
         public int Id_Post { get; set; }

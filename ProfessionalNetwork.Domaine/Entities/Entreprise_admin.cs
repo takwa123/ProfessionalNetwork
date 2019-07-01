@@ -11,15 +11,21 @@ namespace ProfessionalNetwork.Domaine.Entities
     public  class Entreprise_admin :Account
     {
         [Key]
-        public int Id_Entrepirse { get; set; }
+        public long Id_Entrepirse { get; set; }
         public string Name_Entrerise { get; set; }
         [DataType(DataType.Text)]
         public string Intro_Entreprise { get; set; }
         public int NB_Employee { get; set; }
         [DefaultValue("Administrator")]
         public string Role { get; set; }
-        public List<Project_Manager> Project_Managers { get; set; }
-        public List<Jobseeker> Jobseekers { get; set; }
+
+
+        public ICollection<Project_Manager> Project_Managers { get; set; }
+
+
+        public ICollection<Jobseeker> Jobseekers { get; set; }
+
+
         public ICollection<Job_Offer> Job_Offers { get; set; }
 
     }

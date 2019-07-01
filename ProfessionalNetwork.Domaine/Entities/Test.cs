@@ -10,13 +10,15 @@ namespace ProfessionalNetwork.Domaine.Entities
     public class Test : EntityTrace
     {
         [Key]
-        public int Id_Test { get; set; }
+        public long Id_Test { get; set; }
 
         public int Nbr_Question { get; set; }
         public int Nbr_Point_Tolal { get; set; }
-        public int Name_Test { get; set; }
+        public string Name_Test { get; set; }
 
         public ICollection<Question> Questions { get; set; }
 
+
+        public Interview Interview { get; set; }
     }
 }

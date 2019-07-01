@@ -11,10 +11,10 @@ namespace ProfessionalNetwork.Domaine.Entities
     public class Messages
     {
         [Key, Column(Order = 0)]
-        public int Id_Entrepirse { get; set; }
+        public long Id_Entrepirse { get; set; }
 
         [Key, Column(Order = 1)]
-        public int id_jobseeker { get; set; }
+        public long id_jobseeker { get; set; }
 
         [DataType(DataType.DateTime)]
         public DateTime Date_message { get; set; }

@@ -10,7 +10,7 @@ namespace ProfessionalNetwork.Domaine.Entities
     public class Administrator: Account
     {
         [Key]
-        public int Id_Administrator { get; set; }
+        public long Id_Administrator { get; set; }
 
     }
 }
