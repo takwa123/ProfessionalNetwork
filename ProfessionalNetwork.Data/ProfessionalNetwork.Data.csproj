@@ -50,6 +50,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Configurations\EntrepriseConfiguration.cs" />
+    <Compile Include="Configurations\FollowConfiguration.cs" />
+    <Compile Include="Configurations\Job_OfferConfiguration.cs" />
     <Compile Include="Configurations\Project_ManagerConfiguration.cs" />
     <Compile Include="Context.cs" />
     <Compile Include="Conventions\DateTimeConvention.cs" />
@@ -60,6 +62,11 @@
     <Compile Include="Infrastructure\IUnitOfWork.cs" />
     <Compile Include="Infrastructure\RepositoryBase.cs" />
     <Compile Include="Infrastructure\UnitOfWork.cs" />
+    <Compile Include="Migrations\201907011626258_t.cs" />
+    <Compile Include="Migrations\201907011626258_t.Designer.cs">
+      <DependentUpon>201907011626258_t.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -73,6 +80,11 @@
       <SubType>Designer</SubType>
     </None>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201907011626258_t.resx">
+      <DependentUpon>201907011626258_t.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -15,10 +15,12 @@ namespace ProfessionalNetwork.Data
 
 
 
-       public Context():base()
+       public Context():base("name=connect")
         {
 
             }
+
+        // déclaration des  dbset les entités ( classes)   de la base de données 
         public DbSet<Account> Account { get; set; }
         public DbSet<Entreprise_admin> Entreprise_admin { get; set; }
         public DbSet<Job_Offer> Job_Offers { get; set; }
@@ -30,6 +32,8 @@ namespace ProfessionalNetwork.Data
             modelBuilder.Conventions.Add(new DateTimeConvention());
             modelBuilder.Configurations.Add(new EntrepriseConfiguration());
             modelBuilder.Configurations.Add(new Project_ManagerConfiguration());
+            modelBuilder.Configurations.Add(new FollowConfiguration());
+            modelBuilder.Configurations.Add(new Job_OfferConfiguration());
         }
 
     }

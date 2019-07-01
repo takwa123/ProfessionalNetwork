@@ -13,3 +13,12 @@ C:\Users\chtak\Documents\Visual Studio 2015\Projects\ProfessionalNetwork\Profess
 C:\Users\chtak\Documents\GitHub\ProfessionalNetwork\ProfessionalNetwork.Data\obj\Debug\ProfessionalNetwork.Data.csprojResolveAssemblyReference.cache
 C:\Users\chtak\Documents\GitHub\ProfessionalNetwork\ProfessionalNetwork.Data\obj\Debug\ProfessionalNetwork.Data.dll
 C:\Users\chtak\Documents\GitHub\ProfessionalNetwork\ProfessionalNetwork.Data\obj\Debug\ProfessionalNetwork.Data.pdb
+C:\Users\chtak\Documents\GitHub\ProfessionalNetwork\ProfessionalNetwork.Data\bin\Debug\ProfessionalNetwork.Data.dll.config
+C:\Users\chtak\Documents\GitHub\ProfessionalNetwork\ProfessionalNetwork.Data\bin\Debug\ProfessionalNetwork.Data.dll
+C:\Users\chtak\Documents\GitHub\ProfessionalNetwork\ProfessionalNetwork.Data\bin\Debug\ProfessionalNetwork.Data.pdb
+C:\Users\chtak\Documents\GitHub\ProfessionalNetwork\ProfessionalNetwork.Data\bin\Debug\EntityFramework.dll
+C:\Users\chtak\Documents\GitHub\ProfessionalNetwork\ProfessionalNetwork.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\chtak\Documents\GitHub\ProfessionalNetwork\ProfessionalNetwork.Data\bin\Debug\ProfessionalNetwork.Domaine.dll
+C:\Users\chtak\Documents\GitHub\ProfessionalNetwork\ProfessionalNetwork.Data\bin\Debug\ProfessionalNetwork.Domaine.pdb
+C:\Users\chtak\Documents\GitHub\ProfessionalNetwork\ProfessionalNetwork.Data\bin\Debug\EntityFramework.xml
+C:\Users\chtak\Documents\GitHub\ProfessionalNetwork\ProfessionalNetwork.Data\bin\Debug\EntityFramework.SqlServer.xml

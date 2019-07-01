@@ -12,11 +12,12 @@ namespace ProfessionalNetwork.Data.Configurations
     {
         public Project_ManagerConfiguration() {
 
-            HasRequired<Entreprise_admin>(s => s.iciunecle)
-               .WithMany(t => t.Project_Managers)
-               .HasForeignKey(u => u.Entreprise_adminFK)
-               .WillCascadeOnDelete(true);
-               
+            //HasRequired<Entreprise_admin>(s => s.Entreprise_admin)
+            //      .WithMany(t => t.Project_Managers)
+            //      .HasForeignKey(u => u.Id_Entreprise_admin)
+            //      .WillCascadeOnDelete(true);
+
+           
 
         }
     }

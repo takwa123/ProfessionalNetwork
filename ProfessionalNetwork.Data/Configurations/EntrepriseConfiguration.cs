@@ -18,8 +18,11 @@ namespace ProfessionalNetwork.Data.Configurations
        
                public  EntrepriseConfiguration()
                {
-                     
-                    }
+                //HasRequired<Project_Manager>(s => s.)
+                //.WithMany(t => t.)
+                //.HasForeignKey(u => u.Id_Entrepirse);
+
+               }
 
 
     }

@@ -21,5 +21,6 @@ namespace ProfessionalNetwork.Domaine.Entities
         public List<Project_Manager> Project_Managers { get; set; }
         public List<Jobseeker> Jobseekers { get; set; }
         public ICollection<Job_Offer> Job_Offers { get; set; }
+
     }
 }
