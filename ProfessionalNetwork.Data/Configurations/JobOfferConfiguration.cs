@@ -10,10 +10,7 @@ namespace ProfessionalNetwork.Data.Configurations
 {
     public class JobOfferConfiguration: EntityTypeConfiguration<Job_Offer>
     {
-        //HasRequired<Bibliotheque>(s => s.Bibliotheque)
-        //        .WithMany(t => t.Documents).
-        //        .HasForeignKey(u => u.BibliothequeFK)
-        //        .WillCascadeOnDelete(true);
+        
                public JobOfferConfiguration()
                {
 
