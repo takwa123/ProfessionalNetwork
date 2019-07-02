@@ -1,0 +1,133 @@
+﻿@model ProfessionalNetwork.Models.ApplicationVM
+
+@{
+    ViewBag.Title = "ShowApplication";
+}
+
+
+<h2>Application of  : <b>@Model.Jobseeker.FullName</b> For Job Offer <b>@Model.Job_Offer.job_title</b> </h2>
+<div class="row">
+
+    @*<div class="col-md-4">
+        <h2>Application of  :</h2>
+        <b>@Model.Jobseeker.First_Name</b>
+        <p>For Job Offer</p>
+        <b>@Model.Job_Offer.job_title</b>
+    </div>*@
+    <div class="col-md-6">
+        <h2>Condidate Profile</h2>
+        <dl class="dl-horizontal">
+            @*<dt>
+                    @Html.DisplayNameFor(model => model.Id_Application)
+                </dt>*@
+
+            @*<dd>
+                    @Html.DisplayFor(model => model.Id_Application)
+                </dd>*@
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Date_Application)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Date_Application)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Jobseeker.Email)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Jobseeker.Email)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Jobseeker.FullName)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Jobseeker.FullName)
+            </dd>
+
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Jobseeker.Date_of_birth)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Jobseeker.Date_of_birth)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Jobseeker.Intro_jobseeker)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Jobseeker.Intro_jobseeker)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Jobseeker.Skills)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Jobseeker.Skills)
+            </dd>
+
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Jobseeker.Certif)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Jobseeker.Certif)
+            </dd>
+
+        </dl>
+    </div>
+    <div class="col-md-6">
+        <h2>JOb Offer</h2>
+        <dl class="dl-horizontal">
+            @*<dt>
+                    @Html.DisplayNameFor(model => model.Id_Application)
+                </dt>*@
+
+            @*<dd>
+                    @Html.DisplayFor(model => model.Id_Application)
+                </dd>*@
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Job_Offer.job_title)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Job_Offer.job_title)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Job_Offer.Date_Offer)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Job_Offer.Date_Offer)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Job_Offer.Job_Description)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Job_Offer.Job_Description)
+            </dd>
+
+
+
+
+        </dl>
+    </div>
+
+</div>
+<p>
+    @Html.ActionLink("Accept", "Accept", new {  id = Model.Id_Application  }) |
+    @Html.ActionLink("Reject", "Reject", new { id = Model.Id_Application })
+</p>

@@ -18,7 +18,7 @@ namespace ProfessionalNetwork.Models
         public string Certif { get; set; }
         public string Skills { get; set; }
 
-
+        public String FullName { get; set; }
         public ICollection<ApplicationVM> Applications { get; set; }
     }
 }

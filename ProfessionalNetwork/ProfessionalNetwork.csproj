@@ -211,6 +211,7 @@
     <Compile Include="Controllers\Entrepirse_AdminController.cs" />
     <Compile Include="Controllers\Entreprise_AdminController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\InterviewController.cs" />
     <Compile Include="Controllers\JobSeekerController.cs" />
     <Compile Include="Controllers\Job_OfferController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
@@ -308,6 +309,11 @@
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Application\Index.cshtml" />
+    <Content Include="Views\Application\Details.cshtml" />
+    <Content Include="Views\Application\GetJobOffers.cshtml" />
+    <Content Include="Views\Application\ShowCondidates.cshtml" />
+    <Content Include="Views\Interview\Create.cshtml" />
+    <Content Include="Views\Application\Accept.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

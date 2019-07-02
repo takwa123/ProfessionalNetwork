@@ -23,8 +23,8 @@ namespace ProfessionalNetwork.Models
 
 
         public ICollection<ApplicationVM> Applications { get; set; }
-         
-        public int Id_Project_Manager { get; set; }
-        public Project_ManagerVM Project_Manager { get; set;  }
-}
+
+      //  public int Id_Project_Manager { get; set; }
+        //public Project_ManagerVM Project_Manager { get; set; }
+    }
 }

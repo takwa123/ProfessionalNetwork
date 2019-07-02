@@ -30,6 +30,7 @@ namespace ProfessionalNetwork.Models
         public long Job_SeekerFK { get; set; }
         public JobseekerVM Jobseeker { get; set; }
 
+        
         public ICollection<InterviewVM> Interviews { get; set; }
     }
 }

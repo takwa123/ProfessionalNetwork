@@ -1,0 +1,61 @@
+﻿@model IEnumerable<ProfessionalNetwork.Models.Job_OfferVM>
+
+@{
+    ViewBag.Title = "All Job Offers";
+}
+
+<h2>All Job Offers</h2>
+
+@*<p>
+    @Html.ActionLink("Create New", "Create")
+</p>*@
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.job_title)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Job_Description)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Date_Offer)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Nbr_Candidat)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Date_Expiration)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Entreprise_Admin.Name_Entrerise)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.job_title)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Job_Description)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Date_Offer)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Nbr_Candidat)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Date_Expiration)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Entreprise_Admin.Name_Entrerise)
+        </td>
+        <td>
+            @Html.ActionLink("Show Condidates", "ShowCondidates", new { id=item.Id_JobOffer }) 
+        </td>
+    </tr>
+}
+
+</table>
