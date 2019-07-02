@@ -221,13 +221,9 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201907012341224_V1.cs" />
-    <Compile Include="Migrations\201907012341224_V1.Designer.cs">
-      <DependentUpon>201907012341224_V1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201907012353270_V2.cs" />
-    <Compile Include="Migrations\201907012353270_V2.Designer.cs">
-      <DependentUpon>201907012353270_V2.cs</DependentUpon>
+    <Compile Include="Migrations\201907021551255_yes.cs" />
+    <Compile Include="Migrations\201907021551255_yes.Designer.cs">
+      <DependentUpon>201907021551255_yes.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountVM.cs" />
@@ -314,11 +310,11 @@
     <Content Include="Views\Application\ShowCondidates.cshtml" />
     <Content Include="Views\Interview\Create.cshtml" />
     <Content Include="Views\Application\Accept.cshtml" />
+    <Content Include="Views\Entreprise_Admin\Create.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Views\Entrepirse_Admin\" />
-    <Folder Include="Views\Entreprise_Admin\" />
     <Folder Include="Views\JobSeeker\" />
     <Folder Include="Views\Job_Offer\" />
     <Folder Include="Views\project_Manager\" />
@@ -348,11 +344,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201907012341224_V1.resx">
-      <DependentUpon>201907012341224_V1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201907012353270_V2.resx">
-      <DependentUpon>201907012353270_V2.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201907021551255_yes.resx">
+      <DependentUpon>201907021551255_yes.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ProfessionalNetwork.Service;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -8,6 +9,28 @@ namespace ProfessionalNetwork.Controllers
 {
     public class Entrepirse_AdminController : Controller
     {
+
+        public ApplicationService _IApplicationService { get; set; }
+
+        public JobOfferService _IJobOfferService { get; set; }
+
+        public JobSeekerService _IJobSeekerService { get; set; }
+
+        public EntrepriseAdminService _IEntrepriseService { get; set; }
+
+        public InterviewService _IInterviewService { get; set; }
+
+
+        public Entrepirse_AdminController()
+        {
+             
+            _IApplicationService = new ApplicationService();
+            _IJobOfferService = new JobOfferService();
+            _IEntrepriseService = new EntrepriseAdminService();
+            _IInterviewService = new InterviewService();
+       
+        }
+
         // GET: Entrepirse_Admin
         public ActionResult Index()
         {
