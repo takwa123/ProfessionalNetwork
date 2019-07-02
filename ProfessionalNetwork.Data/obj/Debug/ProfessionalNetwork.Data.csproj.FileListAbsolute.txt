@@ -30,3 +30,4 @@ C:\Users\send\Documents\GitHub\ProfessionalNetwork\ProfessionalNetwork.Data\obj\
 C:\Users\send\Documents\GitHub\ProfessionalNetwork\ProfessionalNetwork.Data\obj\Debug\ProfessionalNetwork.Data.pdb
 C:\Users\send\Documents\GitHub\ProfessionalNetwork\ProfessionalNetwork.Data\obj\Debug\ProfessionalNetwork.Data.Migrations.firstmig.resources
 C:\Users\send\Documents\GitHub\ProfessionalNetwork\ProfessionalNetwork.Data\obj\Debug\ProfessionalNetwork.Data.csproj.GenerateResource.cache
+C:\Users\send\Documents\GitHub\ProfessionalNetwork\ProfessionalNetwork.Data\obj\Debug\ProfessionalNetwork.Data.Migrations.newone.resources

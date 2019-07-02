@@ -20,10 +20,10 @@ namespace ProfessionalNetwork.Domaine.Entities
         public string Role { get; set; }
 
 
-       // public ICollection<Project_Manager> Project_Managers { get; set; }
+        public ICollection<Project_Manager> Project_Managers { get; set; }
 
-
-       // public ICollection<Jobseeker> Jobseekers { get; set; }
+        //check next one ! 
+       public ICollection<Jobseeker> Jobseekers { get; set; }
 
 
         public ICollection<Job_Offer> Job_Offers { get; set; }

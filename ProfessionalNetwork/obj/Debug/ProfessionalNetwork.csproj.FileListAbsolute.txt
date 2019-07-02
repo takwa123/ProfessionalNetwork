@@ -292,3 +292,6 @@ C:\Users\send\Documents\GitHub\ProfessionalNetwork\ProfessionalNetwork\obj\Debug
 C:\Users\send\Documents\GitHub\ProfessionalNetwork\ProfessionalNetwork\obj\Debug\ProfessionalNetwork.csproj.CopyComplete
 C:\Users\send\Documents\GitHub\ProfessionalNetwork\ProfessionalNetwork\obj\Debug\ProfessionalNetwork.dll
 C:\Users\send\Documents\GitHub\ProfessionalNetwork\ProfessionalNetwork\obj\Debug\ProfessionalNetwork.pdb
+C:\Users\send\Documents\GitHub\ProfessionalNetwork\ProfessionalNetwork\obj\Debug\ProfessionalNetwork.Migrations.V1.resources
+C:\Users\send\Documents\GitHub\ProfessionalNetwork\ProfessionalNetwork\obj\Debug\ProfessionalNetwork.csproj.GenerateResource.cache
+C:\Users\send\Documents\GitHub\ProfessionalNetwork\ProfessionalNetwork\obj\Debug\ProfessionalNetwork.Migrations.V2.resources
